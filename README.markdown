@@ -63,3 +63,7 @@ Defaults to false.
 
 # Version
 - v0.8.0 : Added changes for support on Firefox and IE.
+
+# Original Credit
+- Original Author is [josephschmitt](https://github.com/josephschmitt/Clamp.js/)
+- Forked from [xavi160](https://github.com/xavi160/Clamp.js)
