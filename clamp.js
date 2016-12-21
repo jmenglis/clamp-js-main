@@ -1,7 +1,8 @@
 /*!
- * Clamp.js 0.7.0
+ * Clamp.js 0.8.0
  *
- * Copyright 2011-2013, Joseph Schmitt http://joe.sh
+ * Now Maintained by Josh English http://joshengish.com
+ * Joseph Schmitt http://joe.sh
  * Released under the WTFPL license
  * http://sam.zoy.org/wtfpl/
  */
