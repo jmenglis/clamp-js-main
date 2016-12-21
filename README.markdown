@@ -62,7 +62,7 @@ removing individual characters from the end of the element until the content fit
 Defaults to false.
 
 # Version
-- v0.8.0 : Added changes for support on Firefox and IE.
+- v0.9.0 : Added changes for support on Firefox and IE.
 
 # Original Credit
 - Original Author is [josephschmitt](https://github.com/josephschmitt/Clamp.js/)

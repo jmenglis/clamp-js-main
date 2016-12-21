@@ -1,6 +1,6 @@
 {
   "name": "clamp-js-main",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "license": "WTFPL",
   "description": "Clamps (ie. cuts off) an HTML element's content by adding ellipsis to it if the content inside is too long.",
   "author": {
