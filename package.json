@@ -1,8 +1,8 @@
 {
   "name": "clamp-js-main",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "license": "WTFPL",
-  "description": "Clamps (ie. cuts off) an HTML element's content by adding ellipsis to it if the content inside is too long.",
+  "description": "Clamp JS main (ie. cuts off) an HTML element's content by adding ellipsis to it if the content inside is too long.",
   "author": {
     "name": "Josh English",
     "email": "josh@joshenglish.com"
@@ -16,6 +16,6 @@
   "main": "clamp.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmenglis/Clamp.js"
+    "url": "https://github.com/jmenglis/clamp-js-main"
   }
 }

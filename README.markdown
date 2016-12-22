@@ -62,6 +62,7 @@ removing individual characters from the end of the element until the content fit
 Defaults to false.
 
 # Version
+- v0.10.0 : Adjusting name of repo and pointing package.json to the right location.
 - v0.9.0 : Added changes for support on Firefox and IE.
 
 # Original Credit
