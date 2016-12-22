@@ -1,5 +1,5 @@
 /*!
- * Clamp.js 0.9.0
+ * Clamp.js 0.11.0
  *
  * Now Maintained by Josh English http://joshengish.com
  * Joseph Schmitt http://joe.sh
