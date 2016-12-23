@@ -1,6 +1,10 @@
 Clamps (ie. cuts off) an HTML element's content by adding ellipsis to it if the
 content inside is too long.
 
+# Installation Instructions
+- Open terminal and move to your project directory and run `npm install clamp-js-main`
+- You can also install by running `git clone git@github.com:jmenglis/clamp-js-main.git` and moving the script.js to your project. Then include it in your index.html.
+
 
 # Sample Usage
 
@@ -62,6 +66,7 @@ removing individual characters from the end of the element until the content fit
 Defaults to false.
 
 # Version
+- v0.11.1 : Adjusting readme.
 - v0.11.0 : Adjusting git location.
 - v0.10.0 : Adjusting name of repo and pointing package.json to the right location.
 - v0.9.0 : Added changes for support on Firefox and IE.
