@@ -1,5 +1,5 @@
 /*!
- * Clamp.js 0.11.1
+ * Clamp.js 0.11.2
  *
  * Now Maintained by Josh English http://joshengish.com
  * Joseph Schmitt http://joe.sh
@@ -98,6 +98,7 @@
      */
     function getMaxHeight(clmp) {
       var lineHeight = getLineHeight(element);
+      console.log(lineHeight * clmp);
       return lineHeight * clmp;
     }
 
@@ -109,9 +110,9 @@
       if (lh == 'normal') {
         // Normal line heights vary from browser to browser. The spec recommends
         // a value between 1.0 and 1.2 of the font size. Using 1.1 to split the diff.
-        lh = parseInt(computeStyle(elem, 'font-size')) * 1.2;
+        lh = parseInt(computeStyle(elem, 'font-size')) * 1.1;
       }
-      return parseInt(lh);
+      return Math.ceil(parseFloat(lh));
     }
 
 
@@ -161,6 +162,7 @@
         chunks = null;
         lastChunk = null;
       }
+      console.log(splitOnChars);
 
       var nodeValue = target.nodeValue.replace(opt.truncationChar, '');
 
@@ -201,6 +203,7 @@
       if (chunks) {
         //It fits
         if (element.clientHeight <= maxHeight) {
+          console.log(element.clientHeight, maxHeight);
           //There's still more characters to try splitting on, not quite done yet
           if (splitOnChars.length >= 0 && splitChar !== '') {
             applyEllipsis(target, chunks.join(splitChar) + splitChar + lastChunk);
@@ -260,7 +263,7 @@
       }
     } else {
       var height = getMaxHeight(clampValue);
-      if (height <= element.clientHeight) {
+      if (height < element.clientHeight) {
         clampedText = truncate(getLastChild(element), height);
       }
     }
