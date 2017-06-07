@@ -98,7 +98,7 @@
      */
     function getMaxHeight(clmp) {
       var lineHeight = getLineHeight(element);
-      console.log(lineHeight * clmp);
+      // console.log(lineHeight * clmp);
       return lineHeight * clmp;
     }
 
@@ -162,7 +162,7 @@
         chunks = null;
         lastChunk = null;
       }
-      console.log(splitOnChars);
+      // console.log(splitOnChars);
 
       var nodeValue = target.nodeValue.replace(opt.truncationChar, '');
 
@@ -203,7 +203,7 @@
       if (chunks) {
         //It fits
         if (element.clientHeight <= maxHeight) {
-          console.log(element.clientHeight, maxHeight);
+          // console.log(element.clientHeight, maxHeight);
           //There's still more characters to try splitting on, not quite done yet
           if (splitOnChars.length >= 0 && splitChar !== '') {
             applyEllipsis(target, chunks.join(splitChar) + splitChar + lastChunk);
