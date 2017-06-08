@@ -1,5 +1,5 @@
 /*!
- * Clamp.js 0.11.3
+ * Clamp.js 0.11.2
  *
  * Now Maintained by Josh English http://joshengish.com
  * Joseph Schmitt http://joe.sh
@@ -110,7 +110,7 @@
       if (lh == 'normal') {
         // Normal line heights vary from browser to browser. The spec recommends
         // a value between 1.0 and 1.2 of the font size. Using 1.1 to split the diff.
-        lh = parseInt(computeStyle(elem, 'font-size')) * 1.1;
+        lh = parseInt(computeStyle(elem, 'font-size')) * 1.187;
       }
       return Math.ceil(parseFloat(lh));
     }
