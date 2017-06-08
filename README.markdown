@@ -66,6 +66,7 @@ removing individual characters from the end of the element until the content fit
 Defaults to false.
 
 # Version
+- v0.11.4 : Fix issues with line-height normal in Chrome vs other browsers.
 - v0.11.3 : Removing logging to reduce console pollution.  Thanks [oliveti](https://github.com/oliveti)!
 - v0.11.2 : Fixing issues with Firefox displaying different information from Chrome.
 - v0.11.1 : Adjusting readme.
