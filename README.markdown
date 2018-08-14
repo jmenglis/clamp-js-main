@@ -2,9 +2,9 @@ Clamps (ie. cuts off) an HTML element's content by adding ellipsis to it if the
 content inside is too long.
 
 # Installation Instructions
+
 - Open terminal and move to your project directory and run `npm install clamp-js-main`
 - You can also install by running `git clone git@github.com:jmenglis/clamp-js-main.git` and moving the script.js to your project. Then include it in your index.html.
-
 
 # Sample Usage
 
@@ -25,7 +25,6 @@ $clamp(myParagraph, {clamp: '35px'});
 The $clamp method is the primary way of interacting with Clamp.js, and it takes two
 arguments. The first is the element which should be clamped, and the second is an
 Object with options in JSON notation.
-
 
 # Options
 
@@ -66,8 +65,10 @@ removing individual characters from the end of the element until the content fit
 Defaults to false.
 
 # Version
+
+- v0.11.5 : Fixing issue with children and childNodes on IE and Firefox. Thanks [AngKov](https://github.com/AngKov)
 - v0.11.4 : Fix issues with line-height normal in Chrome vs other browsers.
-- v0.11.3 : Removing logging to reduce console pollution.  Thanks [oliveti](https://github.com/oliveti)!
+- v0.11.3 : Removing logging to reduce console pollution. Thanks [oliveti](https://github.com/oliveti)!
 - v0.11.2 : Fixing issues with Firefox displaying different information from Chrome.
 - v0.11.1 : Adjusting readme.
 - v0.11.0 : Adjusting git location.
@@ -75,5 +76,6 @@ Defaults to false.
 - v0.9.0 : Added changes for support on Firefox and IE.
 
 # Original Credit
+
 - Original Author is [josephschmitt](https://github.com/josephschmitt/Clamp.js/)
 - Forked from [xavi160](https://github.com/xavi160/Clamp.js)
