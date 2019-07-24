@@ -13,7 +13,7 @@
     define([], factory);
   } else if (typeof exports === 'object') {
     // Node, CommonJS-like
-    module.exports = factory();
+    module.exports = {clamp: factory()};
   } else {
     // Browser globals
     root.$clamp = factory();
