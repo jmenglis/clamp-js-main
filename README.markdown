@@ -66,6 +66,7 @@ Defaults to false.
 
 # Version
 
+- v0.11.6 : Adding in import support for es6. Thanks [amirgro](https://github.com/amirgro)!
 - v0.11.5 : Fixing issue with children and childNodes on IE and Firefox. Thanks [AngKov](https://github.com/AngKov)
 - v0.11.4 : Fix issues with line-height normal in Chrome vs other browsers.
 - v0.11.3 : Removing logging to reduce console pollution. Thanks [oliveti](https://github.com/oliveti)!
